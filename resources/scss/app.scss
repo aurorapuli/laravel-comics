@@ -16,3 +16,118 @@ a {
     background-size: cover;
 
 }
+
+
+
+// Footer
+
+footer {
+
+    .up {
+        background-color: $primary;
+        font-size: 10px;
+        color: white;
+        padding: 40px;
+
+        div {
+            display: flex;
+            justify-content: space-around;
+
+            .list {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 50px;
+                }
+
+                div {
+                    width: 35px;
+                    margin: 0 15px;
+                }
+            }
+
+        }
+    }
+
+    .down {
+        background-image: url('../img/footer-bg.jpg');
+        padding-top: 20px;
+
+        .container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            div {
+                display: flex;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+
+                    ul {
+                        list-style-type: none;
+                        margin-right: 25px;
+                        margin-bottom: 15px;
+
+                        h4 {
+                            color: white;
+                        }
+
+                        li {
+                            a {
+                                color: gray;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+
+            .img {
+                width: 350px;
+            }
+
+        }
+
+
+    }
+
+    .sign-up {
+
+        background-color: #222222;
+        padding: 30px;
+        color: $primary;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: white;
+                border: 1px solid $primary;
+                padding: 5px;
+            }
+
+            .social {
+                p {
+                    margin-bottom: 0;
+                }
+
+                img {
+                    width: 25px;
+                    margin-left: 10px;
+                }
+            }
+
+        }
+
+    }
+}
