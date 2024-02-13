@@ -12,9 +12,37 @@ a {
 
 
 .jumbotron {
-    background-image: url('../img/jumbotron.jpg');
+    height: 361px;
+    background-image: url('~res/img/jumbotron.jpg');
     background-size: cover;
 
+}
+
+// card
+
+main {
+    background-color: #222222;
+    color: white;
+}
+
+.row-comics {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card-comics {
+        width: calc((100% / 6) - 10px);
+        margin: 0 5px;
+        margin-bottom: 40px;
+
+        .img {
+            margin-bottom: 8px;
+
+            img {
+                height: 276px;
+            }
+        }
+    }
 }
 
 
